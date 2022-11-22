@@ -312,7 +312,7 @@ transform: matrix(-1, 0.01, 0, -1, 0, 0);
     width: 409.69px;
     height: 0px;
     left: 93rem;
-    top: 680px;
+    top: 720px;
 
 transform: matrix(-1, 0.01, 0, -1, 0, 0);
 border-radius: 4px;
@@ -327,19 +327,21 @@ border-radius: 4px;
 }
 
 #Card1{
-    background: url(/trabalho_fotografia-master/imagem/foto1.jfif);
+    background: url(/imagem/Img1.jpg);
     background-size: cover;
+    background-position: center center;
     border-radius: 20px;
     box-shadow: 6px 6px 12px 0;
+    
 }
 #card2{
-    background: url(/trabalho_fotografia-master/imagem/foto2.jfif);
+    background: url(/imagem/Img2.jpg);
     background-size: cover;
     border-radius: 20px;
     box-shadow: 6px 6px 12px 0;
 }
 #card3{
-    background: url(/imagem/foto3.jfif);
+    background: url(/imagem/Img3.jpg);
     background-size: cover;
     border-radius: 20px;
     box-shadow: 6px 6px 12px 0;
@@ -375,6 +377,7 @@ border-radius: 4px;
 .section-dois{
     background: url(/imagem/lente.jpg) ;
     background-size: cover;
+    background-position: center center;
     display: flex;
     padding: 60px;
     justify-content: space-around;
@@ -382,6 +385,7 @@ border-radius: 4px;
     align-items: center;
     width: 50vw;
     height: 100vh;
+    
 }
 
 
@@ -409,7 +413,7 @@ border-radius: 4px;
  
  .main-title h2{
      color: #ca1d1d;
-     font-size: 50px;
+     font-size: 70px;
      font-family: "Hanuman";
      font-weight: bold;
      letter-spacing: 2px;
@@ -505,12 +509,12 @@ border-radius: 4px;
 
 
 .Card-sobre{
-    border: #000 2px solid;
+
     display: grid;
     position: absolute;
     margin-left: 60rem;
-    top: 80rem;
-    font-size: 24px;
+    top: 150rem;
+    font-size: 26px;
 }
 
 .Card-sobre button{
@@ -573,7 +577,7 @@ border-radius: 4px;
 /* ==================== Area de serviços ===================== */
 .servicos{
     width: 100%;
-    background-color: #F3EEEE;
+    background-color: #f1e9e9;
     padding: 50px;
     
 }
@@ -595,7 +599,7 @@ border-radius: 4px;
 .servicos p{
     text-align: center;
     font-family: "Inria Sans";
-    color: #685B5B;
+    color: #BEB7B7;
     margin-top: 25px;
     
 } 
@@ -645,7 +649,69 @@ border-radius: 4px;
     transform: scale(1.1);
     transition-duration: .9s;
 }
+.rodape{
+    height: 30rem;
+    z-index: 2;
+    background-color: #383535;
 
+}
+.foto_logo_rodape{
+    position: absolute;
+    left: 57rem;
+    top: 360rem;
+    height: 5.5em;
+}
+.div_rodape{
+    background-color: #182846;
+    height: 3rem;
+    width: auto;
+    z-index: 2;
+}
+.lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    font-size: 24px;
+    font-family: "Inria Sans";
+    font-weight: 600;
+    margin-left: 50rem;
+    margin-top: 2rem;
+    list-style: none;
+    z-index: 2;
+    color: #fff;
+
+}
+.lista h1{
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+.lista img{
+    height: 1.6rem;
+    margin-right: 9px;
+    z-index: 2; 
+}
+
+.foto_icon{
+    position: relative;
+    top: 5px;
+}
+#tamanho{
+    height: 28px;
+    z-index: 2;
+}
+
+.rodape div{
+    background-color: #000;
+    height: 2px;
+    width: 28rem;
+    position: relative;
+    left: 45rem;
+    top: 6rem;
+    box-shadow: 2px 2px 5px;
+    z-index: 2;
+}
 
 @media only screen and (max-width: 414px){
 
@@ -658,7 +724,5 @@ border-radius: 4px;
     .C-card-2{
         margin-top: 35px;
     }
-
-
 
 }
